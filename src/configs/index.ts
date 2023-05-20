@@ -25,7 +25,7 @@ export const supportedImageModels = [
 
 export type SupportedImageModels = (typeof supportedImageModels)[number];
 
-export const defaultImageModel: SupportedImageModels = 'DALL-E';
+export const defaultImageModel: SupportedImageModels = 'Midjourney';
 
 // From https://platform.openai.com/docs/api-reference/images/create
 export const supportedImgSizes = ['256x256', '512x512', '1024x1024'] as const;
