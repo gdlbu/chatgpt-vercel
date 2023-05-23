@@ -83,10 +83,10 @@ const Sidebar: FC<{
       <div className="p-4 mt-2 flex items-baseline justify-between">
         <span className="text-3xl text-gradient font-[800]">GP.TT</span>
         // <a
-         // href="https://github.com/GPTGenius/chatgpt-vercel"
-          // target="_blank"
-          //rel="noreferrer"
-        // >
+         href="https://github.com/GPTGenius/chatgpt-vercel"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="ml-2 ri-github-fill text-xl" />
         </a>
       </div>
