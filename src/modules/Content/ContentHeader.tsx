@@ -57,10 +57,11 @@ const ContentHeader: FC<ContentHeaderProps> = ({
           </div>
         </div>
       </div>
+      <div className="p-4 mt-2 flex items-baseline justify-between">
+        <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
+      </div>
       <div>
-        <div className="p-4 mt-2 flex items-baseline justify-between">
-          <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
-        </div>        
+                
         <Tooltip title={i18n.action_output}>
           <ConfigIcon
             name="ri-chat-download-line mr-2"
