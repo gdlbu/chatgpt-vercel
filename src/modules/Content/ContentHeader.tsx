@@ -46,6 +46,9 @@ const ContentHeader: FC<ContentHeaderProps> = ({
           <div className="truncate">
             {conversation.title || i18n.status_empty}
           </div>
+          <div className="p-4 mt-2 flex items-baseline justify-between">
+            <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
+          </div>
           <div className="ml-1">
             <ConfigIcon
               name="ri-edit-2-line"
