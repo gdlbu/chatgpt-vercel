@@ -6,11 +6,6 @@ import { Tooltip } from 'antd';
 import ExportConversationModal from '@components/ConversationModal/export';
 import EditModal from '@components/EditModal';
 
-
-
-
-
-
 interface ContentHeaderProps {
   conversation: Conversation;
   setActiveSetting: ReactSetState<boolean>;
