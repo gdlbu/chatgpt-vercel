@@ -37,10 +37,7 @@ const ContentHeader: FC<ContentHeaderProps> = ({
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
-          <i
-            className="ri-arrow-left-line p-3 ml-2 cursor-pointer"
-            onClick={() => setCurrentId('')}
-          />
+          <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
         ) : null}
         <div className="text-[#232629] flex-1 flex overflow-hidden">
           <div className="truncate">
@@ -58,7 +55,6 @@ const ContentHeader: FC<ContentHeaderProps> = ({
         </div>
       </div>
       <div>
-        <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
         <Tooltip title={i18n.action_output}>
           <ConfigIcon
             name="ri-chat-download-line mr-2"
