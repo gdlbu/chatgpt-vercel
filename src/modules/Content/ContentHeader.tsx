@@ -57,8 +57,7 @@ const ContentHeader: FC<ContentHeaderProps> = ({
           </div>
         </div>
       </div>
-
-      <div>                
+      <div>
         <Tooltip title={i18n.action_output}>
           <ConfigIcon
             name="ri-chat-download-line mr-2"
