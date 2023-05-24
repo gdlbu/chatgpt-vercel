@@ -6,6 +6,11 @@ import { Tooltip } from 'antd';
 import ExportConversationModal from '@components/ConversationModal/export';
 import EditModal from '@components/EditModal';
 
+window.addEventListener('popstate', function(event) {
+    // 在这里，'/'应被替换为你的首页的路径
+    window.location.assign('/')
+});
+
 interface ContentHeaderProps {
   conversation: Conversation;
   setActiveSetting: ReactSetState<boolean>;
