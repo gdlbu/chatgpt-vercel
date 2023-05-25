@@ -31,13 +31,13 @@ const ContentHeader: FC<ContentHeaderProps> = ({
 
   return (
     <div
-      className={`w-full h-[60px] flex items-center justify-between ${
+      className={`w-full h-[20px] flex items-center justify-between ${
         isMobile ? '' : 'pl-5'
       } pr-5 border-b border-b-[#edeeee] overflow-hidden`}
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
-          <div className="p-4 mt-2" onClick={() => setCurrentId('')}>
+          <div className="p-4" onClick={() => setCurrentId('')}>
             <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
           </div>
         ) : null}
