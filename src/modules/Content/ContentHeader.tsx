@@ -37,9 +37,8 @@ const ContentHeader: FC<ContentHeaderProps> = ({
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
-          <span className="text-3xl text-gradient font-[800]">GPT.TT
-            onClick={() => setCurrentId('')}
-          </span>            
+          <span className="text-3xl text-gradient font-[800]">GPT.TT</span>            
+          onClick={() => setCurrentId('')}                     
         ) : null}
         <div className="text-[#232629] flex-1 flex overflow-hidden">
           <div className="truncate">
