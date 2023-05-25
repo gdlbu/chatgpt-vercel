@@ -32,8 +32,8 @@ const ContentHeader: FC<ContentHeaderProps> = ({
   return (
     <div
       className={`w-full h-[60px] flex items-center justify-between ${
-        isMobile ? '' : 'pl-2'
-      } pr-2 border-b border-b-[#edeeee] overflow-hidden`}
+        isMobile ? '' : 'pl-0'
+      } pr-0 border-b border-b-[#edeeee] overflow-hidden`}
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
