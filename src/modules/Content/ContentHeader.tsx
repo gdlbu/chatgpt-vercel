@@ -39,14 +39,14 @@ const ContentHeader: FC<ContentHeaderProps> = ({
         {isMobile ? (
           <div className="p-4 mt-2 flex items-baseline justify-between">
             <span className="text-3xl text-gradient font-[800]">ChatGPT</span>
-          <a
-            href="https://github.com/GPTGenius/chatgpt-vercel"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="ml-2 ri-github-fill text-xl" />
-          </a>
-      </div>
+            <a
+              href="https://github.com/GPTGenius/chatgpt-vercel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="ml-2 ri-github-fill text-xl" />
+            </a>
+          </div>
         ) : null}
         <div className="text-[#232629] flex-1 flex overflow-hidden">
           <div className="truncate">
