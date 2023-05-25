@@ -40,8 +40,7 @@ const ContentHeader: FC<ContentHeaderProps> = ({
           <div className="p-4 mt-2 flex items-baseline justify-between">
             <span className="text-3xl text-gradient font-[800]">GPT.TT
               onClick={() => setCurrentId('')}
-            </span>
-            
+            </span>            
           </div>
         ) : null}
         <div className="text-[#232629] flex-1 flex overflow-hidden">
