@@ -37,7 +37,7 @@ const ContentHeader: FC<ContentHeaderProps> = ({
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
-          <div className="ml-1" onClick={() => setCurrentId('')}>
+          <div className="p-4 mt-2 flex items-baseline justify-between" onClick={() => setCurrentId('')}>
             <span className="text-3xl text-gradient font-[800]">GPT.TT</span>
           </div>
         ) : null}
