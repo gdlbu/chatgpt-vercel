@@ -174,7 +174,7 @@ const Main: FC<{ lang: Lang; inVercel: boolean }> = ({ lang, inVercel }) => {
       >
         <div
           className={`w-[100%] h-[100%] flex overflow-hidden ${
-            isMobile ? '' : 'rounded-md'
+            isMobile ? '' : 'rounded-2xl'
           }`}
           style={{ boxShadow: '0 20px 68px rgba(0, 0, 0, 0.15)' }}
         >
