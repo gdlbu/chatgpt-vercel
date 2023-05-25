@@ -37,10 +37,13 @@ const ContentHeader: FC<ContentHeaderProps> = ({
     >
       <div className="flex items-center flex-1 overflow-hidden mr-2">
         {isMobile ? (
-          <i
-            className="ri-arrow-left-line p-3 ml-2 cursor-pointer"
-            onClick={() => setCurrentId('')}
-          />
+          <a
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="ml-2 ri-github-fill text-xl" />
+          </a>
         ) : null}
         <div className="text-[#232629] flex-1 flex overflow-hidden">
           <div className="truncate">
